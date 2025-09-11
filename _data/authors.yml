@@ -1,0 +1,12 @@
+
+Billy Rick:
+  name        : "黃鉦鈞"
+  bio         : "分享技術、生活與想法"
+  avatar      : "/assets/images/bio-photo.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:pocper1@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://pocper1.github.io"

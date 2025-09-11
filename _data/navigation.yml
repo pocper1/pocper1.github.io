@@ -1,10 +1,8 @@
 # main links
 main:
   - title: "About"
-    url: https://pocper1.github.io/about/
-  - title: "Blogs"
-    url: /blogs/
+    url: /about/
+  - title: "Contact"
+    url: /contact/
   # - title: "Sample Collections"
   #   url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
