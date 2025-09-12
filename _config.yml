@@ -336,7 +336,7 @@ defaults:
       path: ""
       type: backend
     values:
-      layout: single
+      layout: collection
       author_profile: true
       read_time: true
       comments: true
@@ -367,10 +367,8 @@ defaults:
 collections:
   backend:
     output: true
-    permalink: /tech/backend/:path/
   infra:
     output: true
-    permalink: /tech/infra/:path/
+
   devops:
     output: true
-    permalink: /tech/devops/:path/

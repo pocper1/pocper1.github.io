@@ -1,4 +1,25 @@
 ---
-layout: home
-author_profile: true
+layout: collection
+title: "Backend 技術分享"
+permalink: /index.html
 ---
+
+<div class="feature__wrapper">
+
+  <div class="feature__item--right">
+    <div class="archive">
+      <h2 class="archive__subtitle">最新文章</h2>
+      {% for post in site.backend %}
+        <div class="list__item">
+          <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+            <h3 class="archive__item-title" itemprop="headline">
+              <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+            </h3>
+            {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+          </article>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+</div>

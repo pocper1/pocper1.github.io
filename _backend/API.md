@@ -1,8 +1,13 @@
 ---
-title: API 設計指南
+title: API
+layout: collection
+permalink: /backend/api/
+collection: backend
+category: backend
+tags:
+  - backend
+  - api
 ---
-
-# API 設計指南與最佳實踐
 
 ## 概述
 這份文件旨在提供一整套關於應用程式介面（API）設計的標準、原則和最佳實踐。無論是設計 RESTful API、GraphQL 還是 gRPC，遵循這些指南都能幫助你建立清晰、一致且易於使用的 API。

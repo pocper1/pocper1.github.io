@@ -1,8 +1,13 @@
 ---
-title: 資料庫核心概念與設計
+title: Database
+layout: collection
+permalink: /backend/database/
+collection: backend
+category: backend
+tags:
+  - backend
+  - database
 ---
-
-# 資料庫核心概念與設計
 
 ## 概述
 資料庫是任何後端應用的心臟，負責持久化地儲存、管理和檢索數據。選擇正確的資料庫類型並進行合理的設計，對應用的效能、可擴展性和可維護性有著決定性的影響。本文件將介紹主流資料庫的類型、核心概念及設計原則。

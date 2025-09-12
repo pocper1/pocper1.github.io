@@ -1,15 +1,15 @@
 ---
-title: "開發者的基本安全修養：保護你的應用不受攻擊"
-last_modified_at: 2025-09-12T16:00:00+08:00
-categories:
-  - Backend
+title: Security
+layout: collection
+permalink: /backend/security/
+collection: backend
+category: backend
 tags:
-  - Security
-  - System Design
-  - Architecture
+  - backend
+  - security
 ---
 
-## 問題背景：為什麼安全很重要？
+---
 
 你可能覺得“安全是安全專家的事”，但一個小小的安全漏洞就可能導致用戶數據洩露、服務癱瘓、公司聲譽掃地。在現代軟體開發中，安全是每個開發者的責任。一個SQL注入漏洞，就可能讓你的整個數據庫被拖走。
 

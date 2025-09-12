@@ -1,8 +1,13 @@
 ---
-title: 快取策略與設計模式
+title: Cache
+layout: collection
+permalink: /backend/cache/
+collection: backend
+category: backend
+tags:
+  - backend
+  - cache
 ---
-
-# 快取策略與設計模式
 
 ## 概述
 

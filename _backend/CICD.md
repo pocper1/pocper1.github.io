@@ -1,8 +1,13 @@
 ---
-title: CI/CD 實踐指南
+title: CI/CD
+layout: collection
+permalink: /backend/cicd/
+collection: backend
+category: backend
+tags:
+  - backend
+  - cicd
 ---
-
-# CI/CD 實踐指南
 
 ## 概述
 

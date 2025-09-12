@@ -1,22 +1,20 @@
 ---
-title: "軟體設計模式實戰：21種模式解決你的日常開發難題 (附Mermaid圖解)"
-last_modified_at: 2025-09-12T18:00:00+08:00
-categories:
-  - Backend
+title: Design Pattern
+layout: collection
+permalink: /backend/design_pattern/
+collection: backend
+category: backend
 tags:
-  - Software Design
-  - Design Patterns
-  - Architecture
+    - backend
+    - design_pattern
 ---
-
-## 問題背景：為什麼你需要設計模式？
 
 你是否曾感覺自己的代碼越來越難以維護？新增一個小功能，卻要修改十幾個地方；或者，你發現自己在不同的專案中，反复解決著相同的問題。設計模式（Design Patterns）就是前人總結出的、在特定情境下解決常見問題的優雅方案。
 
 本指南將介紹 21 種最核心的設計模式，並通過實戰案例、Mermaid 圖解和模式比較，告訴你**在什麼時候**、**為什麼**以及**如何**使用它們。
 
-- **目標讀者**: 希望寫出更靈活、可維護、可重用代碼的開發者。
-- **結構**: 模式分為三大類：創建型（Creational）、結構型（Structural）和行為型（Behavioral）。
+-   **目標讀者**: 希望寫出更靈活、可維護、可重用代碼的開發者。
+-   **結構**: 模式分為三大類：創建型（Creational）、結構型（Structural）和行為型（Behavioral）。
 
 ---
 
@@ -31,6 +29,7 @@ tags:
 -   **實戰比喻**: 你有一個物流系統，需要根據不同的運輸方式（陸運、空運）創建不同的交通工具對象。你可以定義一個`Logistics`基類，它有一個`createTransport()`工廠方法。`RoadLogistics`子類重寫這個方法返回`Truck`對象，而`SeaLogistics`子類則返回`Ship`對象。
 
 -   **Mermaid 圖解**:
+
     ```mermaid
     classDiagram
       class Creator {
@@ -576,6 +575,7 @@ tags:
 -   **實戰比喻**: 自動售貨機。它有“無幣”、“有幣”、“售罄”等狀態。在“無幣”狀態下，你投幣，它會切換到“有幣”狀態；在“有幣”狀態下，你選擇商品，它會出貨並可能切換回“無幣”狀態。每個狀態下的行為都不同。
 
 -   **Mermaid 圖解**:
+
     ```mermaid
     classDiagram
       class Context {

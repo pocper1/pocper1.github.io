@@ -1,15 +1,15 @@
 ---
-title: "如何構建一個能應對百萬用戶的系統：可擴展性實戰指南"
-last_modified_at: 2025-09-12T15:00:00+08:00
-categories:
-    - Backend
+title: Scalability
+layout: collection
+permalink: /backend/scalability/
+collection: backend
+category: backend
 tags:
-    - System Design
-    - Scalability
-    - Architecture
+    - backend
+    - scalability
 ---
 
-## 問題背景：為什麼我的網站變慢了？
+---
 
 你精心打造的應用上線了，初期運行良好。但隨著用戶量從 100 增長到 10,000，問題接踵而至：頁面加載越來越慢，數據庫頻繁超時，用戶開始抱怨。這就是典型的**可擴展性危機**。
 
