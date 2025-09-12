@@ -331,4 +331,46 @@ defaults:
       comments: true
       share: true
       related: true
+  # Collections
+  - scope:
+      path: ""
+      type: backend
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: infra
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: devops
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
+# Collections
+collections:
+  backend:
+    output: true
+    permalink: /tech/backend/:path/
+  infra:
+    output: true
+    permalink: /tech/infra/:path/
+  devops:
+    output: true
+    permalink: /tech/devops/:path/
