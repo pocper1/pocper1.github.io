@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "Backend"
+    url: /backend/
+  - title: "DevOps"
+    url: /devops/
+  - title: "Infra"
+    url: /infra/
+  - title: "About"
+    url: /about/
+  - title: "Contact"
+    url: /contact/
