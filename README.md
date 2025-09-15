@@ -12,40 +12,43 @@
 
 嗨，我是來自台灣的開發者黃鉦鈞。歡迎來到我的網站！我在這裡分享技術、生活與想法。
 
-- 📍 位置：台灣
-- 📧 聯絡信箱：pocper1@gmail.com
-- 💻 GitHub：[@pocper1](https://github.com/pocper1)
+-   📍 位置：台灣
+-   📧 聯絡信箱：pocper1@gmail.com
+-   💻 GitHub：[@pocper1](https://github.com/pocper1)
 
 ## 🛠 技術架構
 
-- **靜態網站生成器：** Jekyll 4.x
-- **主題：** [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)
-- **託管平台：** GitHub Pages
-- **評論系統：** Giscus
-- **語言：** 繁體中文 (zh-TW)
+-   **靜態網站生成器：** Jekyll 4.x
+-   **主題：** [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)
+-   **託管平台：** GitHub Pages
+-   **評論系統：** Giscus
+-   **語言：** 繁體中文 (zh-TW)
 
 ## 🚀 本地開發
 
 ### 環境需求
 
-- Ruby (建議使用 Ruby 2.7+)
-- Bundler
-- Jekyll
+-   Ruby (建議使用 Ruby 2.7+)
+-   Bundler
+-   Jekyll
 
 ### 安裝與執行
 
 1. 複製專案到本地
+
 ```bash
 git clone https://github.com/pocper1/pocper1.github.io.git
 cd pocper1.github.io
 ```
 
 2. 安裝相依套件
+
 ```bash
 bundle install
 ```
 
 3. 啟動本地開發伺服器
+
 ```bash
 bundle exec jekyll serve
 ```
@@ -54,9 +57,53 @@ bundle exec jekyll serve
 
 ### 開發指令
 
-- `bundle exec jekyll serve` - 啟動開發伺服器
-- `bundle exec jekyll build` - 建置網站
-- `bundle exec jekyll serve --livereload` - 啟動自動重載功能
+-   `bundle exec jekyll serve` - 啟動開發伺服器
+-   `bundle exec jekyll build` - 建置網站
+-   `bundle exec jekyll serve --livereload` - 啟動自動重載功能
+
+### Windows (WSL) 環境設定
+
+如果你使用 Windows，建議透過 WSL (Windows Subsystem for Linux) 來設定開發環境。
+
+1.  **安裝 WSL 與 Ubuntu**
+
+    以系統管理員身分開啟 PowerShell，執行以下指令安裝 WSL 和 Ubuntu：
+
+    ```powershell
+    wsl --install -d Ubuntu
+    ```
+
+    安裝完成後，請重新啟動電腦。
+
+2.  **設定 Ruby 環境**
+
+    開啟 Ubuntu 應用程式，依照下列步驟安裝 Ruby：
+
+    ```bash
+    # 安裝 Ruby 的相依套件
+    sudo apt-get update
+    sudo apt-get install -y build-essential zlib1g-dev
+
+    # 安裝 mise 版本管理器
+    curl https://mise.run | sh
+    
+    # 將 mise 加入 Shell 環境
+    echo 'eval "$(~/.local/bin/mise activate bash)"' >> ~/.bashrc
+    source ~/.bashrc
+
+    # 安裝 Ruby
+    mise use --global ruby@3.2.2
+    ```
+
+3.  **安裝 Jekyll 與 Bundler**
+
+    ```bash
+    gem install jekyll bundler
+    ```
+
+4.  **複製專案並啟動**
+
+    完成上述設定後，即可依照[安裝與執行](#安裝與執行)的步驟來啟動專案。
 
 ## 📁 專案結構
 
@@ -98,10 +145,10 @@ tags: [標籤1, 標籤2]
 
 主要設定都在 `_config.yml` 中：
 
-- **網站資訊：** 標題、描述、作者資訊
-- **外觀主題：** Minimal Mistakes 皮膚
-- **功能設定：** 評論系統、搜尋、分析工具
-- **社群連結：** GitHub、Email 等聯絡方式
+-   **網站資訊：** 標題、描述、作者資訊
+-   **外觀主題：** Minimal Mistakes 皮膚
+-   **功能設定：** 評論系統、搜尋、分析工具
+-   **社群連結：** GitHub、Email 等聯絡方式
 
 ## 💬 評論系統
 
@@ -109,14 +156,14 @@ tags: [標籤1, 標籤2]
 
 ## 📊 功能特色
 
-- ✅ 響應式設計，支援行動裝置
-- ✅ 內建搜尋功能
-- ✅ 文章分類和標籤系統
-- ✅ 社群分享按鈕
-- ✅ 相關文章推薦
-- ✅ 程式碼高亮顯示
-- ✅ 評論互動系統
-- ✅ SEO 最佳化
+-   ✅ 響應式設計，支援行動裝置
+-   ✅ 內建搜尋功能
+-   ✅ 文章分類和標籤系統
+-   ✅ 社群分享按鈕
+-   ✅ 相關文章推薦
+-   ✅ 程式碼高亮顯示
+-   ✅ 評論互動系統
+-   ✅ SEO 最佳化
 
 ## 📄 授權條款
 

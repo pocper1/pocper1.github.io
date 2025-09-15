@@ -1,1 +1,7 @@
-This is about me
+---
+layout: archive
+title: "about"
+permalink: /about/
+---
+
+hello world
