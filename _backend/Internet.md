@@ -1,9 +1,6 @@
 ---
 title: Internet
-layout: collection
 permalink: /backend/internet/
-collection: backend
-category: backend
 tags:
     - backend
     - internet

@@ -1,9 +1,6 @@
 ---
 title: Security
-layout: collection
 permalink: /backend/security/
-collection: backend
-category: backend
 tags:
   - backend
   - security

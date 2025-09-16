@@ -1,9 +1,6 @@
 ---
 title: Scalability
-layout: collection
 permalink: /backend/scalability/
-collection: backend
-category: backend
 tags:
     - backend
     - scalability

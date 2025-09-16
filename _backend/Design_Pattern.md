@@ -1,9 +1,6 @@
 ---
 title: Design Pattern
-layout: collection
 permalink: /backend/design_pattern/
-collection: backend
-category: backend
 tags:
     - backend
     - design_pattern

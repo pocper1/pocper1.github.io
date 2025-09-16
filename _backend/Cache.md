@@ -1,9 +1,6 @@
 ---
 title: Cache
-layout: collection
 permalink: /backend/cache/
-collection: backend
-category: backend
 tags:
   - backend
   - cache

@@ -1,9 +1,6 @@
 ---
 title: CI/CD
-layout: collection
 permalink: /backend/cicd/
-collection: backend
-category: backend
 tags:
   - backend
   - cicd

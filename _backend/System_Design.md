@@ -1,9 +1,6 @@
 ---
 title: System Design
-layout: collection
 permalink: /backend/system_design/
-collection: backend
-category: backend
 tags:
   - backend
   - system_design

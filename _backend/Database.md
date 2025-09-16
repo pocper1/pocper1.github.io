@@ -1,9 +1,6 @@
 ---
 title: Database
-layout: collection
 permalink: /backend/database/
-collection: backend
-category: backend
 tags:
   - backend
   - database
