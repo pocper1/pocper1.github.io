@@ -113,11 +113,11 @@ export const RESUME_DATA: ResumeData = {
     projects: [
         {
             title: "Visual Volume",
-            techStack: ["React", "TypeScript", "WebGL", "Audio Visualization"],
-            description: "An interactive audio visualization tool that transforms sound into dynamic visual patterns using WebGL and Web Audio API. Features real-time frequency analysis and customizable visual effects.",
+            techStack: ["Python", "JavaScript", "GLSL", "HTML", "CSS"],
+            description: "Visual Volume visualizes volumetric data using Three.js and WebGL, rendering 3D data from sources like CT scans.",
             link: {
                 label: "github.com/pocper1/visual-volume",
-                href: "https://github.com/pocper1/visual-volume",
+                href: "https://visual-volume.vercel.app",
             },
         },
     ],
