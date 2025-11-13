@@ -5,8 +5,8 @@ export const RESUME_DATA: ResumeData = {
     initials: "JH",
     location: "Taipei, Taiwan",
     locationLink: "https://www.google.com/maps/place/Taipei",
-    about: "Full Stack Engineer dedicated to building high-quality products.",
-    summary: <>Full Stack Engineer specializing in high-performance React applications, scalable Node.js services, and real-time collaboration systems. Experienced in technical architecture design and remote team leadership.</>,
+    about: "Software Engineer with expertise in backend development, infrastructure, and DevOps. Passionate about building reliable systems.",
+    summary: <>Software Engineer specializing in backend development with Django and RESTful APIs, infrastructure management with Kubernetes and Proxmox VE, and system observability using ELK Stack, Grafana, and APM. Experienced in CI/CD pipeline automation and penetration testing.</>,
     avatarUrl: "https://avatars.githubusercontent.com/u/76590438?v=4",
     personalWebsiteUrl: "https://jimmyhuang.vercel.app",
     contact: {
@@ -58,9 +58,9 @@ export const RESUME_DATA: ResumeData = {
             ),
         },
         {
-            company: "National Taiwan University (NTU) CTLD",
+            company: "NTU CTLD",
             link: "https://ctld.ntu.edu.tw/",
-            badges: ["Proxmox VE", "Grafana", "Prometheus", "Infra"],
+            badges: ["Proxmox VE", "Infra"],
             title: "Infrastructure Engineer Intern - NTU COOL",
             start: "Jul. 2023",
             end: "Dec. 2024",
@@ -75,7 +75,7 @@ export const RESUME_DATA: ResumeData = {
             ),
         },
         {
-            company: "National Yang Ming Chiao Tung University (NYCU) HCRC",
+            company: "NYCU HCRC",
             link: "https://www.nycu.edu.tw/",
             badges: ["Penetration Testing", "Security"],
             title: "Cyber Security Penetration Tester",
