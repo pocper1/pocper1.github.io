@@ -8,7 +8,7 @@ export const RESUME_DATA: ResumeData = {
     about: "Full Stack Engineer dedicated to building high-quality products.",
     summary: <>Full Stack Engineer specializing in high-performance React applications, scalable Node.js services, and real-time collaboration systems. Experienced in technical architecture design and remote team leadership.</>,
     avatarUrl: "https://avatars.githubusercontent.com/u/76590438?v=4",
-    personalWebsiteUrl: "https://jarocki.me",
+    personalWebsiteUrl: "https://jimmyhuang.vercel.app",
     contact: {
         email: "pocper1@gmail.com",
         tel: "+886905984091",
@@ -43,7 +43,7 @@ export const RESUME_DATA: ResumeData = {
         {
             company: "Appier",
             link: "https://www.appier.com/",
-            badges: ["Internship", "Django", "ELK Stack", "APM", "Docker", "RESTful APIs"],
+            badges: ["Django", "APM", "Docker", "RESTful APIs"],
             title: "Backend Engineer Intern - AiQUA",
             start: "Oct. 2024",
             end: "Mar. 2025",
@@ -60,7 +60,7 @@ export const RESUME_DATA: ResumeData = {
         {
             company: "National Taiwan University (NTU) CTLD",
             link: "https://ctld.ntu.edu.tw/",
-            badges: ["Internship", "Proxmox VE", "Grafana", "Prometheus", "Infrastructure"],
+            badges: ["Proxmox VE", "Grafana", "Prometheus", "Infra"],
             title: "Infrastructure Engineer Intern - NTU COOL",
             start: "Jul. 2023",
             end: "Dec. 2024",
@@ -77,7 +77,7 @@ export const RESUME_DATA: ResumeData = {
         {
             company: "National Yang Ming Chiao Tung University (NYCU) HCRC",
             link: "https://www.nycu.edu.tw/",
-            badges: ["Penetration Testing", "Metasploit", "Nmap", "Burp Suite", "Security"],
+            badges: ["Penetration Testing", "Security"],
             title: "Cyber Security Penetration Tester",
             start: "Jun. 2022",
             end: "Oct. 2023",
@@ -94,7 +94,7 @@ export const RESUME_DATA: ResumeData = {
         {
             company: "LINE Taiwan Limited, Central Dev",
             link: "https://linecorp.com/",
-            badges: ["Internship", "Kafka", "ELK Stack", "Kubernetes", "DroneCI", "ArgoCD"],
+            badges: ["Kafka", "ELK Stack", "Kubernetes", "CI/CD"],
             title: "Software Engineer Intern",
             start: "Jul. 2022",
             end: "Jun. 2023",
@@ -112,12 +112,12 @@ export const RESUME_DATA: ResumeData = {
     skills: ["Python", "Java", "C++", "Assembly", "Docker", "Kubernetes", "Proxmox VE", "Grafana", "ELK Stack", "CI/CD", "Kafka", "Git", "DroneCI", "ArgoCD", "RESTful APIs", "Django", "Elastic APM", "Network Architecture", "Operating Systems", "System Administration"],
     projects: [
         {
-            title: "Elementary Programming Camp - Longyuan Elementary School",
-            techStack: ["Scratch", "Education", "Curriculum Design", "Service Learning"],
-            description: "Collaborated with principal and teachers to design and implement a Scratch-based programming camp. Applied experiential learning principles to create an engaging curriculum and led workshops teaching Scratch programming to elementary students, receiving positive feedback and fostering enthusiasm for programming.",
+            title: "Visual Volume",
+            techStack: ["React", "TypeScript", "WebGL", "Audio Visualization"],
+            description: "An interactive audio visualization tool that transforms sound into dynamic visual patterns using WebGL and Web Audio API. Features real-time frequency analysis and customizable visual effects.",
             link: {
-                label: "Longyuan Elementary School",
-                href: "https://www.lyes.tyc.edu.tw/",
+                label: "github.com/pocper1/visual-volume",
+                href: "https://github.com/pocper1/visual-volume",
             },
         },
     ],
