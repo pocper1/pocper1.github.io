@@ -92,10 +92,10 @@ export const RESUME_DATA: ResumeData = {
             ),
         },
         {
-            company: "LINE Taiwan Limited, Central Dev",
+            company: "LINE Taiwan Limited",
             link: "https://linecorp.com/",
             badges: ["Kafka", "ELK Stack", "Kubernetes", "CI/CD"],
-            title: "Software Engineer Intern",
+            title: "Software Engineer Intern - Central Dev",
             start: "Jul. 2022",
             end: "Jun. 2023",
             description: (
