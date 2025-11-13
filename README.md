@@ -14,60 +14,60 @@ A clean and modern web app that renders a minimalist CV/Resume with a print-frie
 
 ## ✨ Features
 
-- 📝 **Single Config File** - Update all your resume data in [one place](./src/data/resume-data.tsx)
-- 🎨 **Minimalist Design** - Clean, professional layout focused on content
-- 📱 **Responsive** - Looks great on all devices, from mobile to desktop
-- 🖨️ **Print Optimized** - Specially designed print styles for physical copies
-- ⌨️ **Keyboard Navigation** - Press `Cmd/Ctrl + K` to quickly navigate through sections
-- 🚀 **Fast Performance** - Built with Next.js 14 and optimized for Core Web Vitals
-- 🔄 **Auto Layout** - Sections automatically adjust based on your content
-- 📊 **GraphQL API** - Access your resume data programmatically at `/graphql`
-- 🎯 **SEO Friendly** - Optimized metadata for better search visibility
-- 🐳 **Docker Support** - Easy containerized deployment
+-   📝 **Single Config File** - Update all your resume data in [one place](./src/data/resume-data.tsx)
+-   🎨 **Minimalist Design** - Clean, professional layout focused on content
+-   📱 **Responsive** - Looks great on all devices, from mobile to desktop
+-   🖨️ **Print Optimized** - Specially designed print styles for physical copies
+-   ⌨️ **Keyboard Navigation** - Press `Cmd/Ctrl + K` to quickly navigate through sections
+-   🚀 **Fast Performance** - Built with Next.js 14 and optimized for Core Web Vitals
+-   🔄 **Auto Layout** - Sections automatically adjust based on your content
+-   📊 **GraphQL API** - Access your resume data programmatically at `/graphql`
+-   🎯 **SEO Friendly** - Optimized metadata for better search visibility
+-   🐳 **Docker Support** - Easy containerized deployment
 
 ## 🛠️ Tech Stack
 
-- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **UI Components**: [shadcn/ui](https://ui.shadcn.com/) (Radix UI)
-- **GraphQL**: [Apollo Server](https://www.apollographql.com/) + [TypeGraphQL](https://typegraphql.com/)
-- **Package Manager**: [pnpm](https://pnpm.io/)
-- **Deployment**: Optimized for [Vercel](https://vercel.com/)
+-   **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+-   **Language**: [TypeScript](https://www.typescriptlang.org/)
+-   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+-   **UI Components**: [shadcn/ui](https://ui.shadcn.com/) (Radix UI)
+-   **GraphQL**: [Apollo Server](https://www.apollographql.com/) + [TypeGraphQL](https://typegraphql.com/)
+-   **Package Manager**: [pnpm](https://pnpm.io/)
+-   **Deployment**: Optimized for [Vercel](https://vercel.com/)
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js 18+ 
-- pnpm 8+
+-   Node.js 18+
+-   pnpm 8+
 
 ### Installation
 
 1. **Clone the repository**
 
-   ```bash
-   git clone https://github.com/BartoszJarocki/cv.git
-   cd cv
-   ```
+    ```bash
+    git clone https://github.com/BartoszJarocki/cv.git
+    cd cv
+    ```
 
 2. **Install dependencies**
 
-   ```bash
-   pnpm install
-   ```
+    ```bash
+    pnpm install
+    ```
 
 3. **Start the development server**
 
-   ```bash
-   pnpm dev
-   ```
+    ```bash
+    pnpm dev
+    ```
 
 4. **Open [http://localhost:3000](http://localhost:3000)** in your browser
 
 5. **Customize your CV**
-   
-   Edit the [src/data/resume-data.tsx](./src/data/resume-data.tsx) file to add your personal information, work experience, education, and skills.
+
+    Edit the [src/data/resume-data.tsx](./src/data/resume-data.tsx) file to add your personal information, work experience, education, and skills.
 
 ### Available Scripts
 
@@ -106,21 +106,22 @@ All resume content is stored in a single configuration file:
 ```typescript
 // src/data/resume-data.tsx
 export const RESUME_DATA = {
-  name: "Your Name",
-  initials: "YN",
-  location: "Your City, Country",
-  about: "Brief description",
-  summary: "Professional summary",
-  // ... more fields
-}
+    name: "Your Name",
+    initials: "YN",
+    location: "Your City, Country",
+    about: "Brief description",
+    summary: "Professional summary",
+    // ... more fields
+};
 ```
 
 ### Styling
 
 The app uses Tailwind CSS for styling. You can customize:
-- Colors in `tailwind.config.js`
-- Global styles in `src/app/globals.css`
-- Print styles are defined separately for optimal printing
+
+-   Colors in `tailwind.config.js`
+-   Global styles in `src/app/globals.css`
+-   Print styles are defined separately for optimal printing
 
 ## 🐳 Docker Deployment
 
@@ -156,9 +157,10 @@ No environment variables are required for basic usage. The app works out of the 
 ### Print Settings
 
 The app is optimized for printing. For best results:
-- Use Chrome/Chromium for printing
-- Enable "Background graphics" in print settings
-- Set margins to "Default"
+
+-   Use Chrome/Chromium for printing
+-   Enable "Background graphics" in print settings
+-   Set margins to "Default"
 
 ## 🤝 Contributing
 
@@ -176,9 +178,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
-- [Vercel](https://vercel.com/) for hosting and deployment
-- All contributors who have helped improve this project
+-   [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
+-   [Vercel](https://vercel.com/) for hosting and deployment
+-   All contributors who have helped improve this project
 
 ---
 

@@ -37,3 +37,8 @@ next-env.d.ts
 
 # ide
 .idea
+
+#Ignore vscode AI rules
+.github\instructions\codacy.instructions.md
+
+CLAUDE.md
